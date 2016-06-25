@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCollection.WebApi", "src\CarCollection.WebApi\CarCollection.WebApi.csproj", "{916B87D7-BE6A-44B3-8B2B-CCCCE9C533DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCollection.WebApi.Test", "test\CarCollection.WebApi.Test\CarCollection.WebApi.Test.csproj", "{635834B5-CABD-44A5-9779-E75D9C7AE456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{92679105-7040-496C-AA07-27BDF163BEE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{916B87D7-BE6A-44B3-8B2B-CCCCE9C533DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916B87D7-BE6A-44B3-8B2B-CCCCE9C533DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916B87D7-BE6A-44B3-8B2B-CCCCE9C533DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916B87D7-BE6A-44B3-8B2B-CCCCE9C533DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635834B5-CABD-44A5-9779-E75D9C7AE456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635834B5-CABD-44A5-9779-E75D9C7AE456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635834B5-CABD-44A5-9779-E75D9C7AE456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635834B5-CABD-44A5-9779-E75D9C7AE456}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{635834B5-CABD-44A5-9779-E75D9C7AE456} = {92679105-7040-496C-AA07-27BDF163BEE5}
+	EndGlobalSection
+EndGlobal
